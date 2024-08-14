@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"> <!--This is needed beacause to give the user some recommendation like translate and all-->
+<head>
+    <meta charset="UTF-8">  <!--Used for encoding and decoding purpose from byte code to user understandable code-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--To make the width to be specific to the device width of the user and also intial scale for the user-->
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/> <!--Href stands for hypertext reference which is used for the reference for the current page or link to other page where as src is the resource to be added/loaded to the page as in images / javascript-->
+</head>
+<body>
+    <div id = "root"></div>
+    <div >
+        "Outside the root"
+    </div>
+    <div id = "root1"></div>
+    <!-- Plain Javascript without using react -->
+    <!-- <script>
+        const ele = document.createElement("h1");
+        ele.innerHTML = "Hello World!!"
+        const root = document.getElementById("root");
+        root.appendChild(ele);
+    </script> -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src = "src.js"></script>
+</body>
+</html>
